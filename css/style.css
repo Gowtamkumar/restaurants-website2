@@ -1,0 +1,247 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+  /* img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  } */
+
+  .food_banner::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    background: -webkit-linear-gradient(to right, #000, rgba(0, 0, 0, 0.1));
+    background: linear-gradient(to right, #000, rgba(0, 0, 0, 0.1));
+}
+
+.food_banner {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 80px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  overflow: hidden;
+}
+
+.food_content {
+  top: 59%;
+  position: absolute;
+  width: auto;
+  height: auto;
+  
+  transform: translateY(-50%);
+  z-index: 10;
+  margin-left: 66px;
+ 
+  /* background-color: rgba(0,0,0,0.5); */
+  color: white;
+}
+/* top menu  */
+.top_social_icon ul li {
+  display: inline-flex;
+ 
+  padding: 0px 10px 0px 10px;
+}
+/* top menu end */
+.recipe_option i {
+  color: #FBB710;
+}
+.recipe_option h3{
+  font-size: 18px;
+ padding-top:10px;
+}
+.free_recipe_option_bg{
+  background-image: url('../img/bg4.jpg');
+ 
+}
+.free_recipe_option{
+  /* position:relative;
+  z-index: 2; */
+  background: rgba(0, 0, 0, 0.4);
+}
+/* .free_recipe_option::after{
+  content:"";
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.8);
+  background: -webkit-linear-gradient(to right, #000, rgba(0, 0, 0, 0.1));
+  background: linear-gradient(to right, #000, rgba(0, 0, 0, 0.1));
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top:0px;
+  left: 0px;
+
+} */
+.recipe_option img {
+  border-bottom: 3px solid #28a745;
+}
+.free_recipe_option{
+  padding:100px;
+  color:white;
+}
+
+/* blog content */
+.food_image {
+  float: left;
+  
+  padding: 5px;
+}
+
+.food_blog_content {
+  float: left;
+  width: 50%;
+  padding-left: 11px;
+  
+}
+.food_blog_content a{
+  color:black;
+}
+.quote-area{
+  border:10px solid green;
+  padding: 45px;
+  
+}
+.quote-area span {
+  font-size: 48px;
+  font-style: italic;
+  margin-bottom: 30px;
+  display: block;
+  color: #40ba37;
+  line-height: 1;
+}
+
+.newsletter-form form input {
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #ffffff;
+  color: #9b9b9b;
+  font-size: 12px;
+  font-style: italic;
+  border-left: 3px solid #1c8314;
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+.newsletter-form form p {
+ padding-bottom: 20px;
+}
+
+.newsletter-form{
+  background-image:url('../img/bg1.jpg');
+ 
+  padding: 20px;
+}
+.Subscribe_option{
+  padding-top:80px;
+}
+.newsletter-form form button {
+  width: 100%;
+  padding: 14px;
+}
+.newsletterdiscription{
+  padding-bottom: 23px;
+}
+.foodgellery{
+  padding:10px;
+}
+.foodgellery ul li{
+  display: inline-flex;
+  width:12%;
+}
+.foodgellery ul li:hover{
+  display: inline-flex;
+  width:12%;
+}
+
+/* footer  */
+/* footer social icon */
+.footer_social_icon ul li {
+  display: inline-flex;
+  padding: 10px;
+}
+.footer_social_icon ul li a{
+  color:#b6b6b6;
+}
+.footer_social_icon ul{
+  padding: 15px;
+}
+.copyright {
+  padding: 33px;
+}
+
+hr {
+ margin-top: 0px!important;
+ margin-bottom: 0px!important;
+  border: 0!important;
+  border-top: 1px solid rgba(0,0,0,.1)!important;
+}
+
+
+
+/* Recipe page start */
+.recipes_header{
+  background-image: url('../img/bg1.jpg');
+  color:white;
+}
+/* Recipe page end */
+/* Gellary page start */
+.gellary_image a {
+  padding-bottom: 26px;
+}
+.gellary_header{
+  background-image: url('../img/bg1.jpg');
+  
+  color:white;
+
+}
+/* Gellary page end */
+
+/* about page */
+.receipies_cunter >h3 >span{
+  font-weight: 600px;
+  font-size: 50px;
+  color:#40BA37;
+}
